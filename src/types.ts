@@ -119,6 +119,8 @@ export interface TranscriptResponse {
 	title: string;
 	author: string;
 	channelUrl: string;
+	channelHandle: string;
+	publishDate?: string;
 	lines: TranscriptLine[];
 }
 
